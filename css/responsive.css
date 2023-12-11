@@ -1,0 +1,894 @@
+/* Mobile devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* header_part start*/
+
+    .header_part .icon ul {
+        float: left;
+        padding-top: 10px;
+    }
+
+    .header_part .icon ul li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+    /* header_part end*/
+
+    /*logo_part start*/
+
+    .logo_part .logo h2 {
+        font-size: 26px;
+    }
+
+    .logo_part .logo_item1,
+    .logo_part .logo_item2 {
+        float: left;
+    }
+
+    .logo_part .logo_item1 .logo_icon1 a i,
+    .logo_part .logo_item2 .logo_icon2 a i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 16px;
+        float: left;
+    }
+
+    .logo_part .logo_item1 .logo_context1 h5,
+    .logo_part .logo_item2 .logo_context2 h5 {
+        color: #353535;
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .logo_part .logo_item1 .logo_context1 h6,
+    .logo_part .logo_item2 .logo_context2 h6 {
+        font-size: 14px;
+        color: #000;
+
+    }
+
+    /*logo_part end*/
+
+    /*navbar_part start*/
+
+    .navbar-toggler {
+        background-color: rgb(79, 129, 240);
+        margin: 10px 0px;
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+    .nav_part .navbar-nav .nav-item .nav-link.active {
+        background: none;
+    }
+
+    .navbar-toggler-icon {
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+    .nav_part .navbar-nav .nav-item .nav-link {
+        padding: 8px 5px;
+    }
+
+    .nav_part .navbar-nav .nav-item {
+        margin-top: 0px;
+    }
+
+    .nav_part .btn-outline-success {
+        margin-bottom: 15px;
+    }
+
+    /*navbar_part end*/
+
+    /* banner_part start*/
+
+    .banner_part .banner_slider.owl-carousel .owl-nav .owl-prev,
+    .banner_part .banner_slider.owl-carousel .owl-nav .owl-next {
+        display: none;
+    }
+
+    .banner_part .banner_item {
+        width: 100%;
+    }
+
+    .banner_part .banner_item .banner_overlay {
+        padding: 0px 0px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content {
+        margin-top: 150px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h4 {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    /* booking_part start */
+
+    .booking_part .booking_itme .booking_from {
+        padding: 40px 10px;
+    }
+
+    .booking_part .booking_itme .booking_from .form_heading h5 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .booking_part .booking_itme .booking_from .form_heading h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .booking_part .booking_itme .booking_from .btn {
+        text-transform: capitalize;
+    }
+
+    .booking_part .booking_itme .booking_contant {
+        padding: 30px 10px;
+    }
+
+    .booking_part .booking_itme .booking_contant h2 {
+        font-size: 24px;
+    }
+
+    .booking_part .booking_itme .opening_hours h5 {
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+    .booking_part .booking_itme .desc h2 {
+        font-size: 24px;
+    }
+
+    .booking_part .booking_itme .desc h3 {
+        font-size: 16px;
+    }
+
+    /* booking_part end */
+
+    /*service_part start*/
+    .service_part {
+        padding: 40px 0px;
+    }
+
+    .service_part .service_all .service_head h6 {
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+    .service_part .service_all .service_head h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .service_part .service_all .service_content .service_item .service_icon i {
+        height: 60px;
+        width: 50px;
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    .service_part .service_all .service_content .service_item .service_text h4 {
+        font-size: 20px;
+    }
+
+    /*service_part end*/
+
+    /*staff_part start*/
+    .staff_part .staff_head h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .staff_part .staff_itme .staff_text h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .staff_part .staff_itme .staff_text h6 {
+        font-size: 16px;
+        color: #d1d0d0;
+        text-transform: capitalize;
+    }
+
+    /*staff_part end*/
+
+    /*welcome_part start*/
+
+    .welcome_part .wellcome_content {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .welcome_part .wellcome_content h6 {
+        text-align: center;
+    }
+
+    .welcome_part .wellcome_content h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .welcome_part .wellcome_content p {
+        text-align: center;
+        line-height: 1.5;
+        padding-right: 0px;
+    }
+
+    .welcome_part .wellcome_content .negotite_counter .nego_count {
+        margin-right: 0px;
+    }
+
+    .welcome_part .wellcome_content .negotite_counter .nego_count h5 {
+        font-size: 12px;
+    }
+
+    .welcome_part .wellcome_vedio img {
+        height: 500px;
+
+    }
+
+    /*welcome_part end*/
+
+    /*testimonial_part start*/
+    .testimonial_part {
+        padding: 60px 0px;
+    }
+
+    .testimonial_part .testimonial_heading h2 {
+        font-size: 24px;
+    }
+
+    .testimonial_part .testi_slider .testi_item .testi_content p {
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .testimonial_part .testi_slider .testi_item .testi_content .testi_picture .testi_tex h3 {
+        font-size: 24px;
+    }
+
+    .testimonial_part .testi_slider .testi_item .testi_content .testi_picture .testi_tex h6 {
+        font-size: 14px;
+    }
+
+    .testimonial_part .testi_slider.owl-carousel .owl-nav .owl-prev,
+    .testimonial_part .testi_slider.owl-carousel .owl-nav .owl-next {
+        display: none;
+    }
+
+    /*testimonial_part end*/
+
+    /* gallery_part start */
+
+    .gallery_part .gallery_pic .gallery_overlay h4 {
+        top: 75%;
+        font-size: 18px;
+    }
+
+    /* gallery_part end */
+
+    /* bloge_part start */
+
+    .blog_part {
+        padding: 60px 0px;
+    }
+
+    .blog_part .blog_heading h2 {
+        font-size: 24px;
+    }
+
+    .blog_part .card {
+        margin-top: 40px;
+    }
+
+    .blog_part .card h5 {
+        text-align: center;
+    }
+
+    /* bloge_part end */
+
+
+    /* footer_part start */
+
+    .footer_part h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer_part p {
+        text-align: center;
+    }
+
+    .footer_part .foot_icon {
+
+        margin-left: 80px;
+    }
+
+    .footer_part .service h3,
+    .footer_part .contact h3,
+    .footer_part .business h3 {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .footer_part .service .service_list {
+        margin-left: 60px;
+    }
+
+    .footer_part .contact .foot_con_item {
+        margin-left: 40px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h5,
+    .footer_part .business .foot_business_all .foot_buss_text1 h6,
+    .footer_part .business .foot_business_all .foot_buss_text2 h5 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text2 h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #back-to-top {
+        display: none;
+    }
+
+    /* footer_part end */
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    /*logo_part start*/
+    .logo_part .logo h2 {
+        font-size: 26px;
+    }
+
+    .logo_part .logo_item1,
+    .logo_part .logo_item2 {
+        justify-content: space-between;
+
+    }
+
+    .logo_part .logo_item1 {
+        float: left;
+    }
+
+    .logo_part .logo_item1 .logo_icon1 a i,
+    .logo_part .logo_item2 .logo_icon2 a i {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 16px;
+        float: left;
+
+    }
+
+    .logo_part .logo_item1 .logo_context1 h5,
+    .logo_part .logo_item2 .logo_context2 h5 {
+        color: #353535;
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .logo_part .logo_item1 .logo_context1 h6,
+    .logo_part .logo_item2 .logo_context2 h6 {
+        font-size: 14px;
+        color: #000;
+
+    }
+
+    /*logo_part end*/
+
+    /*navbar_part start*/
+
+    .navbar-toggler {
+        background-color: rgb(79, 129, 240);
+        margin: 10px 0px;
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+    .nav_part .navbar-nav .nav-item .nav-link.active {
+        background: none;
+    }
+
+    .navbar-toggler-icon {
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+    .nav_part .navbar-nav .nav-item .nav-link {
+        padding: 8px 5px;
+    }
+
+    .nav_part .navbar-nav .nav-item {
+        margin-top: 0px;
+    }
+
+    .nav_part .btn-outline-success {
+        margin-bottom: 15px;
+    }
+
+    /*navbar_part end*/
+
+    /* banner_part start*/
+
+    .banner_part .banner_item {
+        width: 100%;
+    }
+
+    .banner_part .banner_item .banner_overlay {
+        padding: 0px 0px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content {
+        margin-top: 200px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h4 {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    /*welcome_part start*/
+
+    .welcome_part .wellcome_content {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .welcome_part .wellcome_content h6 {
+        text-align: center;
+    }
+
+    .welcome_part .wellcome_content h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .welcome_part .wellcome_content p {
+        text-align: center;
+        line-height: 1.5;
+        padding-right: 0px;
+    }
+
+    .welcome_part .wellcome_content .negotite_counter .nego_count {
+        margin-right: 0px;
+    }
+
+    .welcome_part .wellcome_content .negotite_counter .nego_count h5 {
+        font-size: 12px;
+    }
+
+    .welcome_part .wellcome_vedio img {
+        height: 600px;
+
+    }
+
+    /*welcome_part end*/
+
+    /* bloge_part start */
+
+    .blog_part {
+        padding: 60px 0px;
+    }
+
+    .blog_part .blog_heading h2 {
+        font-size: 24px;
+    }
+
+    .blog_part .card {
+        margin-top: 40px;
+    }
+
+    .blog_part .card h5 {
+        text-align: center;
+    }
+
+    /* bloge_part end */
+
+    /* footer_part start */
+
+    .footer_part h3 {
+        font-size: 24px;
+    }
+
+    .footer_part .service h3,
+    .footer_part .contact h3,
+    .footer_part .business h3 {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h4,
+    .footer_part .business .foot_business_all .foot_buss_text2 h4 {
+        font-size: 18px;
+
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h5,
+    .footer_part .business .foot_business_all .foot_buss_text1 h6,
+    .footer_part .business .foot_business_all .foot_buss_text2 h5 {
+        font-size: 14px;
+    }
+
+    #back-to-top {
+        display: none;
+    }
+
+    /* footer_part end */
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*logo_part start*/
+
+    .logo_part .logo h2 {
+        font-size: 28px;
+        margin-top: 5px;
+    }
+
+    .logo_part .logo_item1 .logo_context1 h5,
+    .logo_part .logo_item2 .logo_context2 h5 {
+        color: #353535;
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .logo_part .logo_item1 .logo_context1 h6,
+    .logo_part .logo_item2 .logo_context2 h6 {
+        font-size: 13px;
+        color: #000;
+    }
+
+    .navbar-toggler {
+        background-color: rgb(79, 129, 240);
+        margin: 10px 0px;
+        color: rgba(248, 247, 247, 0.966);
+    }
+
+    .nav_part .navbar-nav .nav-item .nav-link {
+        padding: 8px 5px;
+    }
+
+    /* banner_part start*/
+
+    .banner_part .banner_item {
+        width: 100%;
+    }
+
+    .banner_part .banner_item .banner_overlay {
+        padding: 0px 0px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content {
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h4 {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    /* booking_part start */
+
+    .booking_part .booking_itme .booking_contant {
+        padding: 50px 30px;
+    }
+
+    .booking_part .booking_itme .booking_contant h2,
+    .booking_part .booking_itme .desc h2 {
+        font-size: 24px;
+    }
+
+    .booking_part .booking_itme .opening_hours h5,
+    .booking_part .booking_itme .desc h3 {
+        font-size: 18px;
+    }
+
+    /* booking_part end */
+
+    /*welcome_part start*/
+
+    .welcome_part .wellcome_content {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .welcome_part .wellcome_content h6 {
+        text-align: center;
+    }
+
+    .welcome_part .wellcome_content h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .welcome_part .wellcome_content p {
+        text-align: center;
+        line-height: 1.5;
+        padding-right: 0px;
+        padding: 0px 10px;
+    }
+
+    .welcome_part .wellcome_content .negotite_counter .nego_count {
+        margin-right: 0px;
+    }
+
+    .welcome_part .wellcome_content .negotite_counter .nego_count h5 {
+        font-size: 12px;
+    }
+
+    .welcome_part .wellcome_vedio img {
+        height: 600px;
+    }
+
+    /*welcome_part end*/
+
+    /*testimonial_part start*/
+
+    .testimonial_part {
+        padding: 60px 0px;
+    }
+
+    /*testimonial_part end*/
+
+    /* bloge_part start */
+
+    .blog_part .card .card_picture .blog_tex h6 {
+        font-size: 14px;
+        color: #f4692b;
+    }
+
+    .blog_part .card .card-body a h5 {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    /* bloge_part end */
+
+    /* footer_part start */
+
+    .footer_part .foot_logo h3,
+    .footer_part .service h3,
+    .footer_part .contact h3,
+    .footer_part .business h3 {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h4,
+    .footer_part .business .foot_business_all .foot_buss_text2 h4 {
+        font-size: 18px;
+
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h5,
+    .footer_part .business .foot_business_all .foot_buss_text1 h6,
+    .footer_part .business .foot_business_all .foot_buss_text2 h5 {
+
+        font-size: 14px;
+    }
+
+    #back-to-top {
+        display: none;
+    }
+
+    /* footer_part end */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+    /* banner_part start*/
+
+    .banner_part .banner_item {
+        width: 100%;
+    }
+
+    .banner_part .banner_item .banner_overlay {
+        padding: 0px 0px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content {
+        margin-top: 200px;
+        text-align: center;
+        padding: 0px 100px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h4 {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    /* booking_part start */
+
+    .booking_part .booking_itme .booking_contant {
+        padding: 50px 30px;
+    }
+
+    .booking_part .booking_itme .booking_contant h2,
+    .booking_part .booking_itme .desc h2 {
+        font-size: 24px;
+    }
+
+    .booking_part .booking_itme .opening_hours h5,
+    .booking_part .booking_itme .desc h3 {
+        font-size: 18px;
+    }
+
+    /* booking_part end */
+
+
+    .testimonial_part .testi_slider .testi_item .testi_content p {
+        line-height: 1.5;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .testimonial_part .testi_slider .testi_item .testi_content .testi_picture .testi_tex h3 {
+        font-size: 24px;
+    }
+
+    .testimonial_part .testi_slider .testi_item .testi_content .testi_picture .testi_tex h6 {
+        font-size: 14px;
+    }
+
+    /* bloge_part start */
+    .blog_part .card .card_picture .blog_tex h6 {
+        font-size: 14px;
+        color: #f4692b;
+    }
+
+    .blog_part .card .card-body a h5 {
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+
+    /* bloge_part end */
+
+    .footer_part .foot_logo h3,
+    .footer_part .service h3,
+    .footer_part .contact h3,
+    .footer_part .business h3 {
+        margin-top: 30px;
+        font-size: 24px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h4,
+    .footer_part .business .foot_business_all .foot_buss_text2 h4 {
+        font-size: 20px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text1 h5,
+    .footer_part .business .foot_business_all .foot_buss_text1 h6 {
+        font-size: 14px;
+    }
+
+    .footer_part .business .foot_business_all .foot_buss_text2 h5 {
+        font-size: 14px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /* banner_part start*/
+
+    .banner_part .banner_item {
+        width: 100%;
+    }
+
+    .banner_part .banner_item .banner_overlay {
+        padding: 0px 0px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content {
+        margin-top: 200px;
+        text-align: center;
+        padding: 0px 100px;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h1 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content h4 {
+        font-size: 18px;
+        line-height: 1.3;
+        font-weight: 400;
+    }
+
+    .banner_part .banner_item .banner_overlay .banner_content .btn {
+        padding: 10px 10px;
+    }
+
+    /* banner_part */
+
+    .booking_part .booking_itme .desc h2 {
+        font-size: 28px;
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+
+    .banner_part .banner_item .banner_overlay .banner_content {
+        margin-top: 150px;
+       
+    }
+}
